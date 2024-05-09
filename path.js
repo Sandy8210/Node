@@ -24,7 +24,7 @@ console.log(path.join("/form1", "//form2", "index.js"));
 console.log(path.join("/form1", "//form2", "../index.js"));
 console.log(path.join("/form1", "//form2", "../../index.js"));
 
-console.log(path.resolve("form1", "form2", "index.js"));
-console.log(path.resolve("/form1", "form2", "index.js"));
-console.log(path.resolve("/form1", "//form2", "index.js"));
-console.log(path.resolve("/form1", "//form2", "../index.js"));
+// console.log(path.resolve("form1", "form2", "index.js"));
+// console.log(path.resolve("/form1", "form2", "index.js"));
+// console.log(path.resolve("/form1", "//form2", "index.js"));
+// console.log(path.resolve("/form1", "//form2", "../index.js"));
